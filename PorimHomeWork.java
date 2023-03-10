@@ -54,6 +54,8 @@ public static double small (int [][]m) {
 		a[i][j]=input.nextInt();
 		}
 	}
+	System.out.println(posAvg(a));
+	System.out.println(big(a));
 	System.out.println(small(a));
 	}
 
