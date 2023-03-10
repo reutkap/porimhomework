@@ -38,7 +38,7 @@ public static double small (int [][]m) {
 	for(int i=0;i<rows;i++) {
 		min=m[i][0];
 		for(int j=0;j<cols;j++) {
-			if((double)m[i][j]<=min) {
+			if((double)m[i][j]<=min&&(double)m[i][j]>0) {
 				min=m[i][j];
 			}
 		}
